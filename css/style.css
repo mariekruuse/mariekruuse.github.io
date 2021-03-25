@@ -1,0 +1,93 @@
+*{box-sizing: border-box;} /*denne linje udligner width-fejl*/
+
+/*DETTE ER MIT STYLE SHEET*/
+
+/*SKRIFTTYPER OG STØRRELSER SOM STANDARD*/
+
+body{background-color: #000000;}
+
+img{width: 100%;}
+
+.flex-menu{background-color: rgb(0, 0, 0);
+    display: flex;
+    position: sticky;
+    top: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{color: rgb(255, 255, 255);
+font-size: 200%;
+font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+margin: 20px;
+}
+
+h2{color: rgb(247, 22, 90);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;}
+
+
+/*SECTIONS*/
+
+
+.flex-container {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+  }
+
+.flex-div {
+    background-color: #000000;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.underoverskrift {
+  display: flex;
+  justify-content: center;
+}
+
+
+/*GENERELLE TING SÅSOM CLASSES OG ID'S*/
+
+.wrapper{
+    width:90%;
+    margin: 0 auto;}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+
+
+
+
+
+/*RESPONSIVE REGLER (SKAL STÅ I BUNDEN AF STYLESHEET)*/
+
+/* Extra small devices (phones, 600px and down) */
+@media all and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media all and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media all and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media all and (min-width: 992px) {
+ 
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media all and (min-width: 1200px) {
+
+/*regler til store skærme*/
+}}
